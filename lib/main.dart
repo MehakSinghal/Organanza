@@ -1,8 +1,12 @@
 import 'package:Organanza/screens/home_screen.dart';
 import 'package:Organanza/screens/home_screen_empty.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 void main() {
+  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+    statusBarColor: Colors.transparent,
+  ));
   runApp(MyApp());
 }
 

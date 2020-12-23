@@ -37,7 +37,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
                 Positioned(
-                  top: 20,
+                  top: 27,
                   right: 15,
                   child: CircleAvatar(
                     radius: 25,
