@@ -12,8 +12,7 @@ class _AddHabitScreenState extends State<AddHabitScreen> {
     var deviceSize = MediaQuery.of(context).size;
     return Scaffold(
       backgroundColor: Colors.white,
-      body: SingleChildScrollView(
-        child: Column(
+      body: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Stack(
@@ -68,13 +67,12 @@ class _AddHabitScreenState extends State<AddHabitScreen> {
                     fontSize: 30),
               ),
             ),
-            SizedBox(
+            /*SizedBox(
               height: deviceSize.height * 0.01,
-            ),
+            ),*/
             AddHabitItem(),
           ],
         ),
-      ),
     );
   }
 }

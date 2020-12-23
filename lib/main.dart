@@ -21,8 +21,8 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-// Color.fromRGBO(0, 130, 255, 0).withOpacity(1), blue dark
-// Color.fromRGBO(229, 243, 255, 0).withOpacity(1), blue light
-// Color.fromRGBO(205, 210, 217, 0).withOpacity(1), grey dark
-// Color.fromRGBO(234, 240, 250, 0).withOpacity(1), grey light
-// Color.fromRGBO(203, 58, 33, 0).withOpacity(1), red
+// Color.fromRGBO(0, 130, 255, 1), blue dark
+// Color.fromRGBO(229, 243, 255, 1), blue light
+// Color.fromRGBO(205, 210, 217, 1), grey dark
+// Color.fromRGBO(234, 240, 250, 1), grey light
+// Color.fromRGBO(203, 58, 33, 1), red
