@@ -1,3 +1,4 @@
+import 'package:Organanza/screens/habit_detail_screen.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreenItem extends StatelessWidget {
@@ -96,7 +97,9 @@ class HomeScreenItem extends StatelessWidget {
                         icon: Icon(Icons.keyboard_arrow_right),
                         color: Color.fromRGBO(0, 130, 255, 0).withOpacity(1),
                         iconSize: deviceSize.height*0.038,
-                        onPressed: (){},
+                        onPressed: (){
+                          Navigator.push(context, MaterialPageRoute(builder: (ctx)=> HabitDetailScreen()));
+                        },
                       )
                     ],
                   ),
